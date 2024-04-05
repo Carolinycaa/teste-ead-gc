@@ -29,6 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     echo "30.0 - 34.9: Obesidade grau 1 <br>";
     echo "35.0 - 39.9: Obesidade grau 2 <br>";
     echo "40.0 ou mais: Obesidade grau 3 (morbida) </p>";
+    echo "consulte um medico </p>;"	
 
   }else{
     echo "<p style= 'color: red;'>Por favor, preencha ambos os campos.</p>";
